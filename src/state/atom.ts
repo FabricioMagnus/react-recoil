@@ -21,11 +21,3 @@ export const listaDeEeventosState = atom<IEvento[]>({
     ],
 })
 
-export const usuarioState= atom({
-    key: "usuario",
-    default:{
-        nome: "João",
-        email: "teste@softkuka.com.br",
-        senha: "123456",
-    }
-})
